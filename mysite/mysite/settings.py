@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -84,8 +85,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'pp',
-        'USER': 'pp01',
-        'PASSWORD': 'Q!w2e3r4',
+        'USER': 'root',
+        'PASSWORD': 'q1w2e3r4',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
